@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2, h3 {
+  color: #555;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 15px;
+  display: inline-block;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.5) rotate(10deg);
+  color: #0073e6;
+}
